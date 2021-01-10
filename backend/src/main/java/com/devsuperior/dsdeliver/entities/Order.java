@@ -28,7 +28,6 @@ public class Order implements Serializable{
 	private Double longitude;
 	private Instant moment;
 	private OrderStatus status;
-	private Double total;
 	
 	@ManyToMany
 	@JoinTable(name = "tb_order_product",
